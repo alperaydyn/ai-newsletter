@@ -1,0 +1,42 @@
+meta:
+  language: tr-en
+  description: Weekly AI x Banking intelligence brief.
+sections:
+  tldr:
+    title: "Haftanın TL;DR"
+    instructions: |
+      Create five punchy bullets highlighting the most important AI x Banking developments this week.
+  turkey:
+    title: "Türkiye'den"
+    instructions: |
+      Select three to five stories with strong Türkiye relevance. Use bilingual headlines when possible.
+  global:
+    title: "Global Manşetler"
+    instructions: |
+      Highlight five to seven international stories that impact banking and financial services.
+  deep_dives:
+    title: "Derinlemesine"
+    instructions: |
+      Feature two or three analytical or investigative pieces with significant strategic implications.
+  regulation:
+    title: "Regülasyon & Risk"
+    instructions: |
+      Surface policy, compliance, or regulatory risk items. Link to referenced regulations when available.
+  infrastructure:
+    title: "Altyapı & Agentik AI"
+    instructions: |
+      Capture infrastructure, tooling, and agentic AI updates relevant to banks and fintechs.
+summary_template: |
+  **{headline}**  
+  {context}
+  - {bullet1}
+  - {bullet2}
+  - {bullet3}
+render:
+  header: |
+    ---
+    title: "AI × Banking Haftalık Bülten"
+    date: {date}
+    ---
+  footer: |
+    _Bu bülten otomatik olarak derlenmiştir. Geri bildirim için reply edin._
