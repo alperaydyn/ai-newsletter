@@ -1,0 +1,36 @@
+{
+  "clients": {
+    "rss_server": {
+      "url": "${MCP_RSS_SERVER_URL}",
+      "token": "${MCP_RSS_SERVER_TOKEN}"
+    },
+    "web_fetch": {
+      "url": "${MCP_WEB_FETCH_URL}",
+      "token": "${MCP_WEB_FETCH_TOKEN}"
+    },
+    "readability": {
+      "url": "${MCP_READABILITY_URL}",
+      "token": "${MCP_READABILITY_TOKEN}"
+    },
+    "ner_tag": {
+      "url": "${MCP_NER_TAG_URL}",
+      "token": "${MCP_NER_TAG_TOKEN}"
+    },
+    "embed_store": {
+      "url": "${MCP_EMBED_STORE_URL}",
+      "token": "${MCP_EMBED_STORE_TOKEN}"
+    },
+    "dedupe_rank": {
+      "url": "${MCP_DEDUPE_RANK_URL}",
+      "token": "${MCP_DEDUPE_RANK_TOKEN}"
+    },
+    "policy_guard": {
+      "url": "${MCP_POLICY_GUARD_URL}",
+      "token": "${MCP_POLICY_GUARD_TOKEN}"
+    },
+    "publisher": {
+      "url": "${MCP_PUBLISHER_URL:-}",
+      "token": "${MCP_PUBLISHER_TOKEN:-}"
+    }
+  }
+}

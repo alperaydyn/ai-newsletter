@@ -1,0 +1,36 @@
+turkish_sources:
+  - id: aa_tr
+    name: Anadolu Agency - Finance
+    rss: https://www.aa.com.tr/en/rss/default?cat=finance
+    sitemap: https://www.aa.com.tr/en/sitemap.xml
+    homepage: https://www.aa.com.tr/en
+    trust_score: 0.8
+    sector_impact: 0.6
+  - id: dunya_tr
+    name: Dünya Gazetesi - Bankacılık
+    rss: https://www.dunya.com/rss/bankacilik
+    sitemap: https://www.dunya.com/sitemap.xml
+    homepage: https://www.dunya.com/
+    trust_score: 0.75
+    sector_impact: 0.7
+global_sources:
+  - id: ft_global
+    name: Financial Times - AI
+    rss: https://www.ft.com/rss/companies/financial-services
+    sitemap: https://www.ft.com/sitemaps/companies.xml
+    homepage: https://www.ft.com/
+    trust_score: 0.9
+    sector_impact: 0.85
+  - id: forbes_ai
+    name: Forbes AI & Finance
+    rss: null
+    sitemap: https://www.forbes.com/ai/
+    homepage: https://www.forbes.com/
+    trust_score: 0.7
+    sector_impact: 0.65
+weights:
+  source_trust: 0.25
+  novelty: 0.25
+  sector_impact: 0.2
+  tr_relevance: 0.2
+  diversity: 0.1
